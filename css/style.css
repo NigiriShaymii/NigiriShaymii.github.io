@@ -9,31 +9,145 @@ body {
 	width: 100%;
 	height: 100%;
 	margin:0;
-	background-color: #A9D0F5;
+	background-color: #CEECF5;
+	line-height: 1.8em;
+}
+
+.mar {
+
+	margin: 0 300px;
+}
+
+.bord {
+
+	border: 5px;
+	border-color: #F781BE #FA5882;
+	border-style: groove ridge;
+
+}
+
+.pad {
+
+	padding-top: 100px;
 }
 
 #myself {
 
 	background-image:url('../images/banner.jpg');
-	padding: 300px;
+	background-repeat: no-repeat;
 	max-width: 100%;
-	height: auto;
+	max-height: 100%;
+}
+
+#myself .mar {
+
+	margin-top: : 300px;
+}
+
+#myself .bord {
+
+	border-style: none;
+}
+
+#myself img {
+
+	border-radius: 100%;
+	max-width: 50%;
+	max-height: 50%;
+	margin: auto;
+	display: block;
+	min-height: 200px;
+	min-width: 200px;
 
 }
 
-#myself .banner {
-	 border-radius: 50%;
+.banner {
+
+
+	background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 400px;
+	height: 400px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 250px;
+}
+
+#myself h1 {
+	margin: auto;
+	padding: 100px;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#navbar {
+	background-color: #7401DF;
+	margin: 0;
+	padding: 25px ;
+	opacity: 0.5;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+
+}
+
+#navbar li{
+	margin: 10px 10px;
+	padding: 15px 20px;
+	display:inline-block;
+	text-align: center;
+	width:20%;
+	border-style: none solid;
+	border-color: #D8CEF6;
+	background: linear-gradient(to top, #8904B1, #D0A9F5);
+
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+
 }
 .container {
+	margin: 50px 200px;
+	
+	padding: 20px 30px;
 
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-image:url("../images/mountains.jpg");
+	opacity: 55%
+	background-color: #000;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .container h2 {
-	color: green;
-	margin-top: 20px;
+	font-size: 30px;
+	background: linear-gradient(#FE9A2E,#F3E2A9);
 	text-align: center;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+
 }
 
+.container p {
+	color: #fff;
+}
+
+#main-footer {
+	text-align: center;
+}
 
 
 @media(){
