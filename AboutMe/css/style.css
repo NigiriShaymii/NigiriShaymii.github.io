@@ -1,0 +1,183 @@
+@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">")
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	background-color: #B5E5F6;
+	line-height: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mar {
+
+	margin: 0 350px;
+}
+
+.bord {
+
+	border: none;
+
+}
+
+.pad {
+
+	padding-top: 75px;
+}
+
+#navbar2 {
+	background-color: #1324A5;
+	margin: 0;
+	padding-top: 20px ;
+	padding-bottom: 5px;
+	opacity: 0.95;
+}
+
+#navbar2 ul{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+
+#navbar2 li{
+	margin: 10px 5px;
+	width:20%;
+	text-align: center;
+	float:left;
+
+	
+}
+
+#navbar2 a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	width: 66%;
+
+}
+
+.button {
+
+	background: linear-gradient(to top, #3C3C9E, #7E7EEE);
+	border: none;
+    color: white;
+    margin:  auto;
+	padding: 10%;
+	border-style: none solid;
+	border-color: #D8CEF6;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.container {
+
+	display: block;
+	margin: 50px auto;
+	width: 80%;
+	height: 550px;
+
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background: linear-gradient(to top, #1b477c, #2191ba);
+
+
+	 box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	 border: 5px;
+	border-color: #F781BE #FA5882;
+	border-style: groove ridge;
+}
+
+.container h2 {
+
+	font-size: 38px;
+	color: #f9e19d;
+
+	text-align: center;
+	text-shadow: 4px 4px 5px #0E224C;
+
+}
+
+.container p {
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 75%;
+
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 4px 4px 5px #0E224C;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	color: #fff;
+	text-shadow: 4px 4px 5px #0E224C;
+	padding-bottom: 25px;
+}
+
+
+footer {
+	text-align: center;
+	background-color:#285ea0;
+	color: #fff;
+	padding: 25px;
+}
+
+.footlink {
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	}
+
+footer div{
+	margin-top: 10px;
+	width:30%;
+	text-align: center;
+	float:left;
+}
+
+footer a{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	color:#a2f2be ;
+
+}
+
+footer p{
+	padding-top: 50px ;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+@keyframes example {
+    0% {background-color: #1324A5;}
+    25% {background-color: #1977c4;}
+    50% {background-color: #20b4d6;}
+    75% {background-color: #1977c4;}
+    100% {background-color: #1324A5;}
+}
+
+#navbar2 {
+	background-color:  #1324A5;
+	animation-name: example;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+

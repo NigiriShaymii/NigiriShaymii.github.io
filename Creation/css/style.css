@@ -1,0 +1,193 @@
+@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">")
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	background-color: #B5E5F6;
+	line-height: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mar {
+
+	margin: 0 300px;
+	position: middle;
+}
+
+.bord {
+
+	border: none;
+
+}
+
+.pad {
+
+	padding-top: 100px;
+}
+
+.container {
+	margin: 50px auto;
+	width: 100%;
+	display: inline-block;
+	position: center;
+	
+
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+	color: #ff9a68;
+	text-shadow: 4px 4px 5px #0E224C;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-image:url("../images/mountain.jpg");
+}
+
+h2 {
+
+	font-size: 40px;
+	color: #fff3bc;
+
+	text-align: center;
+	text-shadow: 4px 4px 5px #0E224C;
+
+}
+
+a {
+	text-align:  center;
+}
+
+div.gallery {
+	width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border: 10px;
+  border-style: solid;
+  border-color: #6f3b99;
+  background-color: #cfbef7;
+}
+
+img {
+	padding-top: 50px;
+	width: 100%
+}
+
+div.bar {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #4e5ed8;
+  background-color: 
+  text-shadow: 3px 4px 5px #0E224C;
+
+  background-color: #ede5ff;
+}
+
+#navbar {
+	background-color: #1324A5;
+	margin: 0;
+	padding: 25px ;
+	opacity: 0.95;
+}
+
+#navbar ul{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+
+#navbar li{
+	margin: 20px 10px;
+	width:30%;
+	text-align: center;
+	float:left;
+
+	
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	width: 66%;
+
+}
+
+.button {
+
+	background: linear-gradient(to top, #3C3C9E, #7E7EEE);
+	border: none;
+    color: white;
+    margin:  auto;
+	padding: 10%;
+	border-style: none solid;
+	border-color: #D8CEF6;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+footer {
+	text-align: center;
+	background-color:#285ea0;
+	color: #fff;
+	padding: 25px;
+}
+
+.footlink {
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	}
+
+footer div{
+	margin-top: 10px;
+	width:30%;
+	text-align: center;
+	float:left;
+}
+
+footer a{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	color:#a2f2be ;
+
+}
+
+footer p{
+	padding-top: 50px ;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+@keyframes example {
+    0% {background-color: #1324A5;}
+    25% {background-color: #1977c4;}
+    50% {background-color: #20b4d6;}
+    75% {background-color: #1977c4;}
+    100% {background-color: #1324A5;}
+}
+
+#navbar {
+	background-color:  #1324A5;
+	animation-name: example;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
