@@ -27,18 +27,17 @@ body {
 
 .pad {
 
-	padding-top: 75px;
+	padding-top: 100px;
 }
 
-#navbar2 {
+#navbar {
 	background-color: #1324A5;
 	margin: 0;
-	padding-top: 20px ;
-	padding-bottom: 5px;
+	padding: 25px ;
 	opacity: 0.95;
 }
 
-#navbar2 ul{
+#navbar ul{
 	width:100%;
 	height: auto;
 	display: flex;
@@ -47,16 +46,16 @@ body {
 
 }
 
-#navbar2 li{
-	margin: 10px 5px;
-	width:20%;
+#navbar li{
+	margin: 20px 10px;
+	width:30%;
 	text-align: center;
 	float:left;
 
 	
 }
 
-#navbar2 a{
+#navbar a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
@@ -89,9 +88,9 @@ body {
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: auto;
-	background: linear-gradient(to top, #1b477c, #2191ba);
+	background-color: #20b4d6;
 
-
+	background-color: #000;
 	 box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 	 border: 5px;
@@ -101,68 +100,24 @@ body {
 
 .container h2 {
 
-	font-size: 38px;
-	color: #f9e19d;
+	font-size: 40px;
+	background: linear-gradient(#FE9A2E,#F3E2A9);
 
 	text-align: center;
-	text-shadow: 4px 4px 5px #0E224C;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 
 }
 
 .container p {
 	color: #fff;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 15px;
 	max-width: 75%;
 
 	text-align: center;
 	font-size: 18px;
 	text-shadow: 4px 4px 5px #0E224C;
-}
-
-ul {
-	list-style: none;
-	text-align: center;
-	color: #fff;
-	text-shadow: 4px 4px 5px #0E224C;
-	padding-bottom: 25px;
-}
-
-
-footer {
-	text-align: center;
-	background-color:#285ea0;
-	color: #fff;
-	padding: 25px;
-}
-
-.footlink {
-	width:100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	}
-
-footer div{
-	margin-top: 10px;
-	width:30%;
-	text-align: center;
-	float:left;
-}
-
-footer a{
-	width:100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	color:#a2f2be ;
-
-}
-
-footer p{
-	padding-top: 50px ;
-	color: #fff;
-	font-weight: 700;
 }
 
 
@@ -174,7 +129,7 @@ footer p{
     100% {background-color: #1324A5;}
 }
 
-#navbar2 {
+#navbar {
 	background-color:  #1324A5;
 	animation-name: example;
 	animation-duration: 8s;
