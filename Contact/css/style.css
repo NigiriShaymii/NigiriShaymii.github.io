@@ -1,0 +1,167 @@
+@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">")
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	background-color: #B5E5F6;
+	line-height: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mar {
+
+	margin: 0 350px;
+}
+
+.bord {
+
+	border: none;
+
+}
+
+.pad {
+
+	padding-top: 100px;
+}
+
+#navbar {
+	background-color: #1324A5;
+	margin: 0;
+	padding: 25px ;
+	opacity: 0.95;
+}
+
+#navbar ul{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+
+#navbar li{
+	margin: 20px 10px;
+	width:30%;
+	text-align: center;
+	float:left;
+
+	
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	width: 66%;
+
+}
+
+.button {
+
+	background: linear-gradient(to top, #3C3C9E, #7E7EEE);
+	border: none;
+    color: white;
+    margin:  auto;
+	padding: 10%;
+	border-style: none solid;
+	border-color: #D8CEF6;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+footer {
+	text-align: center;
+	background-color:#285ea0;
+	color: #fff;
+	padding: 25px;
+}
+
+.footlink {
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	}
+
+footer div{
+	margin-top: 10px;
+	width:30%;
+	text-align: center;
+	float:left;
+}
+
+footer a{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	color:#a2f2be ;
+
+}
+
+footer p{
+	padding-top: 50px ;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+/* The animation code */
+@keyframes example {
+    0% {background-color: #1324A5;}
+    25% {background-color: #1977c4;}
+    50% {background-color: #20b4d6;}
+    75% {background-color: #1977c4;}
+    100% {background-color: #1324A5;}
+}
+
+#navbar {
+	background-color:  #1324A5;
+	animation-name: example;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
