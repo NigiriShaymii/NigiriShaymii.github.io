@@ -68,6 +68,7 @@ h2 {
 	text-align:  center;
 	color: #efe09e;
 	font-size: 23px;
+	margin: 50px;
 }
 
 
@@ -99,7 +100,7 @@ div.gallery {
 	border-style: groove ridge;
 }
 
-img {
+.gallery img {
 	padding-top: 50px;
 	width: 100%
 
