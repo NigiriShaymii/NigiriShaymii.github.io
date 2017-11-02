@@ -27,30 +27,30 @@ body {
 
 .pad {
 
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 #navbar {
 	background-color: #1324A5;
 	margin: 0;
-	padding: 25px ;
+	padding: 15px ;
 	opacity: 0.95;
+
 }
 
 #navbar ul{
-	width:100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
+
+	display: inline-flex;
 	list-style: none;
+	width: 94%;
 
 }
 
 #navbar li{
-	margin: 20px 10px;
+	margin: 20px 5px;
 	width:30%;
 	text-align: center;
-	float:left;
+	float:middle;
 
 	
 }
@@ -86,11 +86,10 @@ body {
 	height: 550px;
 
 	position: relative;
-	background-repeat: no-repeat;
-	background-position: auto;
-	background-color: #20b4d6;
 
-	background-color: #000;
+	background: linear-gradient(to top, #0e2b4f, #1a7ea3);
+
+
 	 box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 	 border: 5px;
@@ -100,19 +99,18 @@ body {
 
 .container h2 {
 
-	font-size: 40px;
-	background: linear-gradient(#FE9A2E,#F3E2A9);
+	font-size: 38px;
+	color: #f9e19d;
 
 	text-align: center;
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+	text-shadow: 4px 4px 5px #0E224C;
 
 }
 
 .container p {
 	color: #fff;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 10px;
 	max-width: 75%;
 
 	text-align: center;
@@ -120,7 +118,60 @@ body {
 	text-shadow: 4px 4px 5px #0E224C;
 }
 
+.container ul {
+	list-style: none;
+	text-align: center;
+}
 
+.container a {
+	
+	color: white;
+	text-shadow: 4px 4px 5px #0E224C;
+	padding-bottom: 25px;
+	padding-right: 25px
+}
+
+
+footer {
+	text-align: center;
+	background-color:#88c4ef;
+	color: #fff;
+	padding: 25px;
+}
+
+.footlink {
+	width:100%;
+
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	}
+
+footer div{
+	margin-top: 10px;
+	width:20%;
+	text-align: center;
+	float:left;
+}
+
+footer a{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	color:#a2f2be ;
+
+}
+
+footer p{
+	padding-top: 50px ;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+
+/* The animation code */
 @keyframes example {
     0% {background-color: #1324A5;}
     25% {background-color: #1977c4;}
@@ -135,4 +186,3 @@ body {
 	animation-duration: 8s;
 	animation-iteration-count: infinite;
 }
-

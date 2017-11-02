@@ -17,7 +17,7 @@ body {
 .mar {
 
 	margin: 0 300px;
-	position: middle;
+
 }
 
 .bord {
@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-	margin: 50px auto;
+	margin: auto;
 	width: 100%;
 	display: inline-block;
 	position: center;
@@ -43,26 +43,48 @@ body {
 h1 {
 	font-size: 50px;
 	text-align: center;
+	margin: auto;
 	padding: 50px;
-	color: #ff9a68;
+	color: #ebbcff;
 	text-shadow: 4px 4px 5px #0E224C;
-	background-repeat: no-repeat;
-	background-position: auto;
-	background-image:url("../images/mountain.jpg");
+
+	background: linear-gradient(to bottom, rgb(146, 229, 121), rgba(255,0,0,0))
+
 }
 
 h2 {
 
-	font-size: 40px;
-	color: #fff3bc;
+	padding-top: 50px;
+	font-size: 30px;
+	color: #efe09e;
 
 	text-align: center;
-	text-shadow: 4px 4px 5px #0E224C;
+	text-shadow: 2px 2px 5px #c99e4a;
+
 
 }
 
-a {
+.web {
 	text-align:  center;
+	color: #efe09e;
+	font-size: 23px;
+}
+
+
+.gallery {
+	display: block;
+	margin: 50px auto;
+	width: 100%;
+	height: auto;
+
+	position: relative;
+	background: linear-gradient(to top, #4796cc, #2f77a8, #204c82, #1a7ea3,  #0e2b4f, #113056, #051a33);
+
+
+	 box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	 border: 3px;
+	
 }
 
 div.gallery {
@@ -71,25 +93,34 @@ div.gallery {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   border: 10px;
-  border-style: solid;
-  border-color: #6f3b99;
+
   background-color: #cfbef7;
+  border-color: #F781BE #FA5882;
+	border-style: groove ridge;
 }
 
 img {
 	padding-top: 50px;
 	width: 100%
+
 }
 
 div.bar {
   text-align: center;
   padding: 10px 20px;
-  font-size: 20px;
-  color: #4e5ed8;
-  background-color: 
-  text-shadow: 3px 4px 5px #0E224C;
+  font-size: 23px;
+  color: #96ffdc;
 
-  background-color: #ede5ff;
+
+
+}
+
+.music p{
+	color: #ff9999;
+	margin: 20px;
+	padding-top: 40px;
+	font-size: 23px;
+
 }
 
 #navbar {
@@ -97,22 +128,22 @@ div.bar {
 	margin: 0;
 	padding: 25px ;
 	opacity: 0.95;
+
 }
 
 #navbar ul{
-	width:100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
+
+	display: inline-flex;
 	list-style: none;
+	width: 94%;
 
 }
 
 #navbar li{
-	margin: 20px 10px;
+	margin: 20px 5px;
 	width:30%;
 	text-align: center;
-	float:left;
+	float:middle;
 
 	
 }
@@ -142,21 +173,22 @@ div.bar {
 
 footer {
 	text-align: center;
-	background-color:#285ea0;
+	background-color:#88c4ef;
 	color: #fff;
 	padding: 25px;
 }
 
 .footlink {
 	width:100%;
-	height: auto;
+
+	padding-bottom: 25px;
 	display: flex;
 	justify-content: center;
 	}
 
 footer div{
 	margin-top: 10px;
-	width:30%;
+	width:20%;
 	text-align: center;
 	float:left;
 }
@@ -177,6 +209,8 @@ footer p{
 }
 
 
+
+/* The animation code */
 @keyframes example {
     0% {background-color: #1324A5;}
     25% {background-color: #1977c4;}
