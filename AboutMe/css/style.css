@@ -63,6 +63,12 @@ body {
 
 
 }
+
+#navbar a:hover{
+	color: #c9ecff;
+	background-color: #004f82;
+}
+
 .button {
 
 	border: none;
