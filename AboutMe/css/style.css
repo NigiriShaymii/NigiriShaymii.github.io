@@ -9,7 +9,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin:0;
-	background-color: #B5E5F6;
+	background-color: #d0e0fb;
 	line-height: 1.8em;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -31,9 +31,9 @@ body {
 }
 
 #navbar {
-	background-color: #1324A5;
+	background-color: #75c4f7;
 	margin: 0;
-	padding: 15px ;
+	padding: 25px ;
 	opacity: 0.95;
 
 }
@@ -56,25 +56,23 @@ body {
 }
 
 #navbar a{
-	color: #fff;
+	color: #005580;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 25px;
 	width: 66%;
 
-}
 
+}
 .button {
 
-	background: linear-gradient(to top, #3C3C9E, #7E7EEE);
 	border: none;
     color: white;
     margin:  auto;
 	padding: 10%;
-	border-style: none solid;
-	border-color: #D8CEF6;
+	border-style: none;
 	text-align: center;
 	cursor: pointer;
-	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 
 }
 
@@ -135,7 +133,7 @@ body {
 
 footer {
 	text-align: center;
-	background-color:#88c4ef;
+	background-color:#81a7f6;
 	color: #fff;
 	padding: 25px;
 }
@@ -160,7 +158,7 @@ footer a{
 	height: auto;
 	display: flex;
 	justify-content: center;
-	color:#a2f2be ;
+	color:#e7fbfe ;
 
 }
 
@@ -168,22 +166,4 @@ footer p{
 	padding-top: 50px ;
 	color: #fff;
 	font-weight: 700;
-}
-
-
-
-/* The animation code */
-@keyframes example {
-    0% {background-color: #1324A5;}
-    25% {background-color: #1977c4;}
-    50% {background-color: #20b4d6;}
-    75% {background-color: #1977c4;}
-    100% {background-color: #1324A5;}
-}
-
-#navbar {
-	background-color:  #1324A5;
-	animation-name: example;
-	animation-duration: 8s;
-	animation-iteration-count: infinite;
 }
