@@ -71,10 +71,13 @@ h3 {
 	color: #BAEDBB;
 
 	text-align: center;
+	padding: 20px 0;
 }
 
 p {
 	font-size: 15px;
+	display: inherit;
+
 }
 
 .web {
