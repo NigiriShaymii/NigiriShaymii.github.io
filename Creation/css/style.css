@@ -69,8 +69,12 @@ h3 {
 	font-style: italic;
 	line-height: 1.6;
 	color: #BAEDBB;
-	
+
 	text-align: center;
+}
+
+p {
+	font-size: 15px;
 }
 
 .web {
